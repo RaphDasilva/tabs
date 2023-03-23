@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react'
-import { FaAngleDoubleRight } from 'react-icons/fa'
-// ATTENTION!!!!!!!!!!
-// I SWITCHED TO PERMANENT DOMAIN
-const url = 'https://course-api.com/react-tabs-project'
+import React from 'react';
+import Home from './components/Home';
+
 function App() {
-  return <h2>tabs project setup</h2>
+  return (
+    <Home />
+  );
 }
 
-export default App
+export default App;
